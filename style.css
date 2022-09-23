@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #efefef;
+    font-size: 25px;
+    color: #777;
+    font-family: sans-serif;
+
+}
+
+a {text-decoration: none;}
+
+.container
+{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.nav-bar
+{
+    display: block;
+    margin-bottom: 15px 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    background: #000
+}
+
+.nav-bar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+
+.nav-bar li
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;;
+    display: inline-block;
+    align-items:right;
+    font-size: 14px;
+    color: #def1f0;    
+    
+}
+.nav-bar li a 
+{
+    padding: 27px 20px;
+    font-size: 14px;
+    color:#def1f0;
+    display: inline-block;
+    outline: 0;
+    font-weight: 400;}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color:#000000 ;}
+
+.nav-bar li:hover ul.dropdown {display: block;}
+
+.nav-bar li ul.dropdown
+{
+    position: absolute;
+    display: none;
+    width: 200px;
+    background: #2980b9;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+    padding-top: 0;
+
+
+}
+
+.nav-bar li ul.dropdown li 
+{
+    display: block;
+    list-style-type: none;
+}
+
+.nav-bar li ul.dropdown li a
+{
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+}
+
+.nav-bar li ul.dropdown li:last-child a {border-bottom: none;}
+.nav-bar li:hover a
+
+{
+    background: #2980b9;
+    color: #fff !important;
+}
+
+.nav-bar li:first-child:hover a {border-radius: 3px  0 0 3px;}
+.nav-bar li ul.dropdown li:hover a {background:rgba(0, 0, 0, 0.1);}
+.nav-bar li ul.dropdown li.first-child:hover a {border-radius: 0;}
+.nav-bar li:hover .arrow-down {border-top: 5px solid #fff;}
+.arrow-down
+{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #def1f0;
+    position: relative;
+    top: 15px;
+    right: -5px;
+    content: '';
+
+}
+h1{
+position: relative;
+padding: 15px;
+float: right;
+margin-right: 2%;
+margin-top: auto;
+font-family: 'Dancing Script', sans-serif;
+font-weight: 400;
+color:blue
+
+
+}
+
+
+span{
+    color: #ffffff;
+}
+
+.img{
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(15, 130, 207, 0.75)),url(img/pro2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img2{
+    background-image:url(img/pista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.AboutUs {
+    color: white;
+    font-size: 50px;
+    font-family:Sarala;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.BodyUs{
+    color:white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-family:Sarala;
+}
+
+.footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content h3{
+    font-size:1.8 rem ;
+    font-weight:400;
+    text-transform: capitalize;
+    line-height: 3 rem;
+    text-align: center;
+    
+
+
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+}
